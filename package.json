@@ -1,0 +1,23 @@
+{
+  "name": "sabkidukan",
+  "version": "1.0.0",
+  "description": "e-commerce mern",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server"
+  },
+  "author": "sd",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongod": "^2.0.0",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
