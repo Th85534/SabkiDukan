@@ -1,0 +1,32 @@
+.prod_img{
+    height: 400px;
+    width: 430px;
+    border-radius: 5px;
+
+}
+.prod_card:hover{
+    transform: scale(1.05);
+}
+.prod_card{
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+.item-prices{
+    display: flex;
+    gap: 10px;
+    
+}
+.item-old-price{
+    margin-top: 1px;
+    text-decoration: line-through;
+    font-size:  14px;
+    font-weight: 300;
+}
+.item-price-new{
+    font-weight: 900;
+}
+.description-box{
+    background-color: rgba(255, 166, 0, 0.096);
+}

@@ -1,0 +1,10 @@
+.related-products-item{
+    display: flex;
+    margin: 50px 40px;
+    gap: 5vw;
+    width: 100vw;
+}
+.related-products h2{
+    font-size: larger;
+    font-weight: 600;
+}

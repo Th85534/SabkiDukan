@@ -1,0 +1,121 @@
+.product-display{
+    display: flex;
+    width: 100vw;
+    gap: 15vw;
+}
+.product-display-left{
+    display: flex;
+    height: 60vh;
+    width: 45vw;
+    gap: 14px;
+}
+.product-display-img-list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.product-display-img-list img{
+    height: 15.5%;
+    margin-top: 5px;
+    margin-left: 15px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    transition: transform 0.5s ease-in-out;
+}
+.product-display-img-list img:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    
+}
+.product-display-main-img{
+    border-radius: 15px;
+    border: 5px solid orange;
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebeea,
+             -20px -20px 60px #ffffff9f;
+}
+.product-display-img img{
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.product-display-right{
+    
+    width: 40vw;
+}
+.product-display-right-star {
+    display: flex;
+    
+}
+.product-display-right-star div{
+    width: 23%;
+}
+.product-display-right-star p{
+    width: 75%;
+    margin-top: -2px;
+}
+.product-display-right-prices{
+    display: flex;
+    gap: 10px;
+}
+.productdisplay-right-price-old{
+    text-decoration: line-through;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.productdisplay-right-price-new{
+    font-size: larger;
+    font-weight: 600;
+}
+.product-display-right-description{
+    margin-top: 10px;
+    height: 12%;
+}
+.product-display-right-size{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+.product-display-right-size div{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 15px;
+    font-size: large;
+    
+}
+.product-display-right-size-sizes div{
+    
+    /* background-color: rgba(255, 136, 0, 0.795); */
+    width: 10%;
+    align-items: center;    
+}
+.product-display-right-size-sizes div .span{
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    cursor: pointer;
+}
+.product-display-right .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 200px;
+    height: 55px;
+    border-radius: 5px;
+    background: orange;
+    font-size: larger;
+    font-weight: 800;
+    cursor: pointer;
+}
+.product-display-right-category{
+    font-size: larger;
+    display: flex;
+    gap: 5px;
+    font-weight: 500;
+}
