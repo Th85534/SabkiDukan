@@ -7,7 +7,7 @@ import { ShopContext } from '../../Context/ShopContext';
 import nav_dropdown from '../Assets/breadcrum_arrow.png';
 import cart from '../Assets/cart_icon.png'
 
-// import axios from 'axios';
+import axios from 'axios';
 // const translate = new Translate();
 
 const Navbar = () => {
